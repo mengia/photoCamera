@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B879B931C9E788400BD8DDC"
-               BuildableName = "PhotoCamera.app"
-               BlueprintName = "PhotoCamera"
-               ReferencedContainer = "container:PhotoCamera.xcodeproj">
+               BuildableName = "EsieteCamera.app"
+               BlueprintName = "EsieteCamera"
+               ReferencedContainer = "container:EsieteCamera.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B879BA71C9E788400BD8DDC"
-               BuildableName = "PhotoCameraTests.xctest"
-               BlueprintName = "PhotoCameraTests"
-               ReferencedContainer = "container:PhotoCamera.xcodeproj">
+               BuildableName = "EsieteCamera.xctest"
+               BlueprintName = "EsieteCameraTests"
+               ReferencedContainer = "container:EsieteCamera.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B879BB21C9E788400BD8DDC"
-               BuildableName = "PhotoCameraUITests.xctest"
-               BlueprintName = "PhotoCameraUITests"
-               ReferencedContainer = "container:PhotoCamera.xcodeproj">
+               BuildableName = "EsieteCamera.xctest"
+               BlueprintName = "EsieteCameraUITests"
+               ReferencedContainer = "container:EsieteCamera.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B879B931C9E788400BD8DDC"
-            BuildableName = "PhotoCamera.app"
-            BlueprintName = "PhotoCamera"
-            ReferencedContainer = "container:PhotoCamera.xcodeproj">
+            BuildableName = "EsieteCamera.app"
+            BlueprintName = "EsieteCamera"
+            ReferencedContainer = "container:EsieteCamera.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B879B931C9E788400BD8DDC"
-            BuildableName = "PhotoCamera.app"
-            BlueprintName = "PhotoCamera"
-            ReferencedContainer = "container:PhotoCamera.xcodeproj">
+            BuildableName = "EsieteCamera.app"
+            BlueprintName = "EsieteCamera"
+            ReferencedContainer = "container:EsieteCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B879B931C9E788400BD8DDC"
-            BuildableName = "PhotoCamera.app"
-            BlueprintName = "PhotoCamera"
-            ReferencedContainer = "container:PhotoCamera.xcodeproj">
+            BuildableName = "EsieteCamera.app"
+            BlueprintName = "EsieteCamera"
+            ReferencedContainer = "container:EsieteCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

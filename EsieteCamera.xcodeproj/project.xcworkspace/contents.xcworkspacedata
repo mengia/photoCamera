@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhotoCamera.xcodeproj">
+      location = "self:/Users/mamo/Desktop/PhotoCamera/EsieteCamera.xcodeproj">
    </FileRef>
 </Workspace>

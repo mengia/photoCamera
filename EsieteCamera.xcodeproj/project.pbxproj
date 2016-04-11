@@ -14,6 +14,7 @@
 		3B879BA21C9E788400BD8DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B879BA01C9E788400BD8DDC /* LaunchScreen.storyboard */; };
 		3B879BAD1C9E788400BD8DDC /* PhotoCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B879BAC1C9E788400BD8DDC /* PhotoCameraTests.swift */; };
 		3B879BB81C9E788400BD8DDC /* PhotoCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B879BB71C9E788400BD8DDC /* PhotoCameraUITests.swift */; };
+		3B879BC61C9E7F1B00BD8DDC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B879BC51C9E7F1B00BD8DDC /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B879B941C9E788400BD8DDC /* PhotoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B879B941C9E788400BD8DDC /* EsieteCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsieteCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B879B971C9E788400BD8DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B879B991C9E788400BD8DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B879B9C1C9E788400BD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B879B9E1C9E788400BD8DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B879BA11C9E788400BD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B879BA31C9E788400BD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B879BA81C9E788400BD8DDC /* PhotoCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B879BA81C9E788400BD8DDC /* EsieteCamera.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsieteCamera.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B879BAC1C9E788400BD8DDC /* PhotoCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCameraTests.swift; sourceTree = "<group>"; };
 		3B879BAE1C9E788400BD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B879BB31C9E788400BD8DDC /* PhotoCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B879BB31C9E788400BD8DDC /* EsieteCamera.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsieteCamera.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B879BB71C9E788400BD8DDC /* PhotoCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCameraUITests.swift; sourceTree = "<group>"; };
 		3B879BB91C9E788400BD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B879BC51C9E7F1B00BD8DDC /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		3B879B951C9E788400BD8DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B879B941C9E788400BD8DDC /* PhotoCamera.app */,
-				3B879BA81C9E788400BD8DDC /* PhotoCameraTests.xctest */,
-				3B879BB31C9E788400BD8DDC /* PhotoCameraUITests.xctest */,
+				3B879B941C9E788400BD8DDC /* EsieteCamera.app */,
+				3B879BA81C9E788400BD8DDC /* EsieteCamera.xctest */,
+				3B879BB31C9E788400BD8DDC /* EsieteCamera.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			children = (
 				3B879B971C9E788400BD8DDC /* AppDelegate.swift */,
 				3B879B991C9E788400BD8DDC /* ViewController.swift */,
+				3B879BC51C9E7F1B00BD8DDC /* PhotoViewController.swift */,
 				3B879B9B1C9E788400BD8DDC /* Main.storyboard */,
 				3B879B9E1C9E788400BD8DDC /* Assets.xcassets */,
 				3B879BA01C9E788400BD8DDC /* LaunchScreen.storyboard */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B879B931C9E788400BD8DDC /* PhotoCamera */ = {
+		3B879B931C9E788400BD8DDC /* EsieteCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B879BBC1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCamera" */;
+			buildConfigurationList = 3B879BBC1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCamera" */;
 			buildPhases = (
 				3B879B901C9E788400BD8DDC /* Sources */,
 				3B879B911C9E788400BD8DDC /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = PhotoCamera;
+			name = EsieteCamera;
 			productName = PhotoCamera;
-			productReference = 3B879B941C9E788400BD8DDC /* PhotoCamera.app */;
+			productReference = 3B879B941C9E788400BD8DDC /* EsieteCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B879BA71C9E788400BD8DDC /* PhotoCameraTests */ = {
+		3B879BA71C9E788400BD8DDC /* EsieteCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B879BBF1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCameraTests" */;
+			buildConfigurationList = 3B879BBF1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCameraTests" */;
 			buildPhases = (
 				3B879BA41C9E788400BD8DDC /* Sources */,
 				3B879BA51C9E788400BD8DDC /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				3B879BAA1C9E788400BD8DDC /* PBXTargetDependency */,
 			);
-			name = PhotoCameraTests;
+			name = EsieteCameraTests;
 			productName = PhotoCameraTests;
-			productReference = 3B879BA81C9E788400BD8DDC /* PhotoCameraTests.xctest */;
+			productReference = 3B879BA81C9E788400BD8DDC /* EsieteCamera.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3B879BB21C9E788400BD8DDC /* PhotoCameraUITests */ = {
+		3B879BB21C9E788400BD8DDC /* EsieteCameraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B879BC21C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCameraUITests" */;
+			buildConfigurationList = 3B879BC21C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCameraUITests" */;
 			buildPhases = (
 				3B879BAF1C9E788400BD8DDC /* Sources */,
 				3B879BB01C9E788400BD8DDC /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				3B879BB51C9E788400BD8DDC /* PBXTargetDependency */,
 			);
-			name = PhotoCameraUITests;
+			name = EsieteCameraUITests;
 			productName = PhotoCameraUITests;
-			productReference = 3B879BB31C9E788400BD8DDC /* PhotoCameraUITests.xctest */;
+			productReference = 3B879BB31C9E788400BD8DDC /* EsieteCamera.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3B879B931C9E788400BD8DDC = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 35DUXXMQX2;
 					};
 					3B879BA71C9E788400BD8DDC = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -204,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B879B8F1C9E788400BD8DDC /* Build configuration list for PBXProject "PhotoCamera" */;
+			buildConfigurationList = 3B879B8F1C9E788400BD8DDC /* Build configuration list for PBXProject "EsieteCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B879B931C9E788400BD8DDC /* PhotoCamera */,
-				3B879BA71C9E788400BD8DDC /* PhotoCameraTests */,
-				3B879BB21C9E788400BD8DDC /* PhotoCameraUITests */,
+				3B879B931C9E788400BD8DDC /* EsieteCamera */,
+				3B879BA71C9E788400BD8DDC /* EsieteCameraTests */,
+				3B879BB21C9E788400BD8DDC /* EsieteCameraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +262,7 @@
 			files = (
 				3B879B9A1C9E788400BD8DDC /* ViewController.swift in Sources */,
 				3B879B981C9E788400BD8DDC /* AppDelegate.swift in Sources */,
+				3B879BC61C9E7F1B00BD8DDC /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +287,12 @@
 /* Begin PBXTargetDependency section */
 		3B879BAA1C9E788400BD8DDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B879B931C9E788400BD8DDC /* PhotoCamera */;
+			target = 3B879B931C9E788400BD8DDC /* EsieteCamera */;
 			targetProxy = 3B879BA91C9E788400BD8DDC /* PBXContainerItemProxy */;
 		};
 		3B879BB51C9E788400BD8DDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B879B931C9E788400BD8DDC /* PhotoCamera */;
+			target = 3B879B931C9E788400BD8DDC /* EsieteCamera */;
 			targetProxy = 3B879BB41C9E788400BD8DDC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,10 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCamera";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EsieteCamera;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -408,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PhotoCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCamera";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EsieteCamera;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -422,8 +435,8 @@
 				INFOPLIST_FILE = PhotoCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCameraTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCamera.app/PhotoCamera";
+				PRODUCT_NAME = EsieteCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsieteCamera.app/EsieteCamera";
 			};
 			name = Debug;
 		};
@@ -434,8 +447,8 @@
 				INFOPLIST_FILE = PhotoCameraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCameraTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCamera.app/PhotoCamera";
+				PRODUCT_NAME = EsieteCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsieteCamera.app/EsieteCamera";
 			};
 			name = Release;
 		};
@@ -445,7 +458,7 @@
 				INFOPLIST_FILE = PhotoCameraUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCameraUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EsieteCamera;
 				TEST_TARGET_NAME = PhotoCamera;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +470,7 @@
 				INFOPLIST_FILE = PhotoCameraUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mamo-Family.PhotoCameraUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EsieteCamera;
 				TEST_TARGET_NAME = PhotoCamera;
 				USES_XCTRUNNER = YES;
 			};
@@ -466,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B879B8F1C9E788400BD8DDC /* Build configuration list for PBXProject "PhotoCamera" */ = {
+		3B879B8F1C9E788400BD8DDC /* Build configuration list for PBXProject "EsieteCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B879BBA1C9E788400BD8DDC /* Debug */,
@@ -475,29 +488,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B879BBC1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCamera" */ = {
+		3B879BBC1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B879BBD1C9E788400BD8DDC /* Debug */,
 				3B879BBE1C9E788400BD8DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3B879BBF1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCameraTests" */ = {
+		3B879BBF1C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B879BC01C9E788400BD8DDC /* Debug */,
 				3B879BC11C9E788400BD8DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3B879BC21C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "PhotoCameraUITests" */ = {
+		3B879BC21C9E788400BD8DDC /* Build configuration list for PBXNativeTarget "EsieteCameraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B879BC31C9E788400BD8DDC /* Debug */,
 				3B879BC41C9E788400BD8DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
