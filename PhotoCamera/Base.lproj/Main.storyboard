@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EsieteCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -43,14 +42,13 @@
                         <segue destination="FLu-n1-MKG" kind="presentation" identifier="showPhoto" id="uYP-nF-Sgk"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-215" y="349"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="POg-hc-7cl">
             <objects>
-                <exit id="TFB-5s-oXB" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lHM-0d-pnl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FLu-n1-MKG" customClass="PhotoViewController" customModule="EsieteCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZfC-AI-3Xh"/>
@@ -60,8 +58,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hps-rc-UoN">
+                                <rect key="frame" x="0.0" y="44" width="601" height="560"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kGU-Cr-luq">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <color key="backgroundColor" red="0.80568623339117951" green="1" blue="0.65118489631181453" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem id="SXL-Nw-Y3f">
@@ -78,26 +80,24 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hps-rc-UoN">
-                                <rect key="frame" x="-1" y="58" width="601" height="556"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hps-rc-UoN" firstAttribute="top" secondItem="kGU-Cr-luq" secondAttribute="bottom" constant="-6" id="5xf-47-RLK"/>
+                            <constraint firstItem="Hps-rc-UoN" firstAttribute="top" secondItem="kGU-Cr-luq" secondAttribute="bottom" id="5xf-47-RLK"/>
                             <constraint firstItem="Hps-rc-UoN" firstAttribute="centerX" secondItem="kGU-Cr-luq" secondAttribute="centerX" id="NAA-Bj-iwW"/>
                             <constraint firstAttribute="trailing" secondItem="kGU-Cr-luq" secondAttribute="trailing" id="PIp-Cx-KuD"/>
-                            <constraint firstItem="Hps-rc-UoN" firstAttribute="leading" secondItem="tup-5w-nLQ" secondAttribute="leadingMargin" constant="-21" id="TL2-xN-MmL"/>
-                            <constraint firstItem="Hps-rc-UoN" firstAttribute="bottom" secondItem="0N6-8M-AAo" secondAttribute="top" constant="14" id="UWp-Al-ak9"/>
+                            <constraint firstItem="Hps-rc-UoN" firstAttribute="leading" secondItem="tup-5w-nLQ" secondAttribute="leadingMargin" constant="-20" id="TL2-xN-MmL"/>
+                            <constraint firstItem="Hps-rc-UoN" firstAttribute="bottom" secondItem="0N6-8M-AAo" secondAttribute="top" priority="750" constant="4" id="UWp-Al-ak9"/>
                             <constraint firstItem="kGU-Cr-luq" firstAttribute="leading" secondItem="tup-5w-nLQ" secondAttribute="leading" id="mdY-dX-nTr"/>
-                            <constraint firstItem="kGU-Cr-luq" firstAttribute="top" secondItem="tup-5w-nLQ" secondAttribute="top" constant="20" id="qv2-fB-zbo"/>
+                            <constraint firstItem="kGU-Cr-luq" firstAttribute="top" secondItem="tup-5w-nLQ" secondAttribute="top" id="qv2-fB-zbo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="Hps-rc-UoN" id="uFL-gU-tU7"/>
                     </connections>
                 </viewController>
+                <exit id="TFB-5s-oXB" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lHM-0d-pnl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="554" y="349"/>
         </scene>

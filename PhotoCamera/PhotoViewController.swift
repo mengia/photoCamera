@@ -16,8 +16,20 @@ class PhotoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         imageView.image = image
+       let leftconstraits = NSLayoutConstraint(item: imageView, attribute:.Left, relatedBy: .Equal, toItem: self.view, attribute: .Left, multiplier: 1.0, constant: 0)
+        leftconstraits.active = true
+        
+        let rightConstraints = NSLayoutConstraint(item: imageView, attribute: .Right, relatedBy: .Equal, toItem: self.view, attribute: .Right, multiplier: 1.0, constant: 0)
+          rightConstraints.active = true
+        
+        let topConstriants = NSLayoutConstraint(item: imageView, attribute: .Top, relatedBy: .Equal, toItem: self.view, attribute: .Top, multiplier: 1.0, constant: 0)
+          topConstriants.active = true
+        
+        let bottomConstraits = NSLayoutConstraint(item: imageView, attribute: .Bottom, relatedBy: .Equal, toItem: self.view, attribute: .Bottom, multiplier: 1.0, constant: 0)
+           bottomConstraits.active = true
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
